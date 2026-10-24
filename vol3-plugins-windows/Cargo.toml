@@ -1,0 +1,18 @@
+[package]
+name = "vol3-plugins-windows"
+version = "0.1.0"
+edition = "2021"
+description = "Windows plugins for the Volatility3 Rust framework"
+license = "Apache-2.0"
+
+[dependencies]
+vol3-core = { path = "../vol3-core" }
+vol3-layers = { path = "../vol3-layers" }
+vol3-symbols = { path = "../vol3-symbols" }
+vol3-framework = { path = "../vol3-framework" }
+byteorder = "1.5"
+chrono = "0.4"
+log = "0.4"
+
+[dev-dependencies]
+vol3-layers = { path = "../vol3-layers" }

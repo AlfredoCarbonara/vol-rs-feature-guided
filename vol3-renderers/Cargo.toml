@@ -1,0 +1,13 @@
+[package]
+name = "vol3-renderers"
+version = "0.1.0"
+edition = "2021"
+description = "Output renderers for Volatility3 Rust"
+license = "Apache-2.0"
+
+[dependencies]
+vol3-core = { path = "../vol3-core" }
+vol3-framework = { path = "../vol3-framework" }
+thiserror = "2.0"
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"

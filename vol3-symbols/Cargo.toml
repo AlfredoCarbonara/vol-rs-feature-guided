@@ -1,0 +1,21 @@
+[package]
+name = "vol3-symbols"
+version.workspace = true
+edition = "2021"
+description = "Symbol table implementations for Volatility3 Rust"
+
+[dependencies]
+vol3-core = { path = "../vol3-core" }
+thiserror.workspace = true
+anyhow.workspace = true
+log.workspace = true
+serde = { workspace = true }
+serde_json.workspace = true
+hashbrown.workspace = true
+indexmap.workspace = true
+parking_lot.workspace = true
+flate2.workspace = true
+xz2.workspace = true
+
+[dev-dependencies]
+tempfile.workspace = true

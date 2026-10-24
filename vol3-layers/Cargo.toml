@@ -1,0 +1,24 @@
+[package]
+name = "vol3-layers"
+version.workspace = true
+edition = "2021"
+description = "Memory layer implementations for Volatility3 Rust"
+
+[dependencies]
+vol3-core = { path = "../vol3-core" }
+thiserror.workspace = true
+anyhow.workspace = true
+log.workspace = true
+serde = { workspace = true }
+byteorder.workspace = true
+memmap2.workspace = true
+memchr.workspace = true
+flate2.workspace = true
+xz2.workspace = true
+parking_lot.workspace = true
+rayon.workspace = true
+regex.workspace = true
+hashbrown.workspace = true
+
+[dev-dependencies]
+tempfile.workspace = true

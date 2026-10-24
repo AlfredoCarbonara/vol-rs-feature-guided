@@ -1,0 +1,14 @@
+[package]
+name = "vol3-objects"
+version = "0.1.0"
+edition = "2021"
+description = "Memory object implementations for Volatility3 Rust"
+license = "Apache-2.0"
+
+[dependencies]
+vol3-core = { path = "../vol3-core" }
+vol3-layers = { path = "../vol3-layers" }
+vol3-symbols = { path = "../vol3-symbols" }
+thiserror = "2.0"
+parking_lot = "0.12"
+byteorder = "1.5"

@@ -1,0 +1,61 @@
+   0.194664300s  INFO prepare_target{force=false package_id=vol3-objects v0.1.0 (C:\Users\ASUS\Documents\T Gua\RUSTVOL3\vol3-objects) target="vol3_objects"}: cargo::core::compiler::fingerprint: fingerprint error for vol3-objects v0.1.0 (C:\Users\ASUS\Documents\T Gua\RUSTVOL3\vol3-objects)/Check { test: true }/TargetInner { name_inferred: true, ..: lib_target("vol3_objects", ["lib"], "C:\\Users\\ASUS\\Documents\\T Gua\\RUSTVOL3\\vol3-objects\\src\\lib.rs", Edition2021) }
+   0.194732700s  INFO prepare_target{force=false package_id=vol3-objects v0.1.0 (C:\Users\ASUS\Documents\T Gua\RUSTVOL3\vol3-objects) target="vol3_objects"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\ASUS\Documents\T Gua\RUSTVOL3\target\debug\.fingerprint\vol3-objects-acf4ead7d9a1b689\test-lib-vol3_objects`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_libgit2_prerelease
+  12: <unknown>
+  13: <unknown>
+  14: <unknown>
+  15: <unknown>
+  16: git_midx_writer_dump
+  17: git_filter_source_repo
+  18: git_midx_writer_dump
+  19: BaseThreadInitThunk
+  20: RtlUserThreadStart
+   0.213038500s  INFO prepare_target{force=false package_id=vol3-symbols v0.1.0 (C:\Users\ASUS\Documents\T Gua\RUSTVOL3\vol3-symbols) target="vol3_symbols"}: cargo::core::compiler::fingerprint: fingerprint error for vol3-symbols v0.1.0 (C:\Users\ASUS\Documents\T Gua\RUSTVOL3\vol3-symbols)/Check { test: true }/TargetInner { name_inferred: true, ..: lib_target("vol3_symbols", ["lib"], "C:\\Users\\ASUS\\Documents\\T Gua\\RUSTVOL3\\vol3-symbols\\src\\lib.rs", Edition2021) }
+   0.213061900s  INFO prepare_target{force=false package_id=vol3-symbols v0.1.0 (C:\Users\ASUS\Documents\T Gua\RUSTVOL3\vol3-symbols) target="vol3_symbols"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\ASUS\Documents\T Gua\RUSTVOL3\target\debug\.fingerprint\vol3-symbols-5bf0b78f3aff5a65\test-lib-vol3_symbols`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_libgit2_prerelease
+  12: <unknown>
+  13: <unknown>
+  14: <unknown>
+  15: <unknown>
+  16: git_midx_writer_dump
+  17: git_filter_source_repo
+  18: git_midx_writer_dump
+  19: BaseThreadInitThunk
+  20: RtlUserThreadStart
+    Checking vol3-symbols v0.1.0 (C:\Users\ASUS\Documents\T Gua\RUSTVOL3\vol3-symbols)
+    Checking vol3-objects v0.1.0 (C:\Users\ASUS\Documents\T Gua\RUSTVOL3\vol3-objects)
+error: could not compile `vol3-objects` (lib test) due to 9 previous errors
+warning: build failed, waiting for other jobs to finish...
+error: could not compile `vol3-symbols` (lib test) due to 1 previous error; 4 warnings emitted
